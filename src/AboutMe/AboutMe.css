@@ -1,0 +1,300 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.container
+{
+    width: 80%;
+    /* border: 5px solid black; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.m-left-c1
+{
+    /* border: 5px solid green; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    /* overflow: scroll; */
+}
+img
+{
+    width: 148%;
+}
+.img-section
+{
+    /* border: 5px solid gray; */
+    padding: 10px;
+    width: 70%;
+    height: 70%;
+}
+.img-section h1
+{
+    position: relative;
+    bottom: 50px;
+    color: orangered;
+    left: 10px;
+}
+.left-textpart
+{
+    width: 70%;
+    /* border: 5px solid black; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    bottom: 460px;
+}
+.left-textpart i
+{
+    color: rgb(6, 158, 158);
+}
+.left-textpart p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.designer
+{
+    margin-left: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.london
+{
+    margin-left: 10px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+.email
+{
+    margin-left: 10px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+.contact
+{
+    margin-left: 10px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+.skill
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.skills
+{
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    margin-left: 10px;
+    margin-top: 30px;
+    /* border: 5px solid black; */
+    gap: 15px;
+}
+.Adobe p
+{
+    width: 130%;
+    height: 20px;
+    border: 5px solid rgb(6, 158, 158);
+    background-color: rgb(6, 158, 158);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+}
+.photo p
+{
+        width: 120%;
+        height: 20px;
+        border: 5px solid rgb(6, 158, 158);
+        background-color: rgb(6, 158, 158);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 5px solid black; */
+}
+.illu p
+{
+    width: 100%;
+    height: 20px;
+    border: 5px solid rgb(6, 158, 158);
+    background-color: rgb(6, 158, 158);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media p
+{
+    width: 80%;
+    height: 20px;
+    border: 5px solid rgb(6, 158, 158);
+    background-color: rgb(6, 158, 158);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-skills
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+.Adobe
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+.photo
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+.illu
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+.media
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;  
+}
+.lauguage
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.m-right-c2
+{
+    width: 50%;
+    /* border: 5px solid blue; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+}
+.m-right-upper-c3
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+}
+.work
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.work i
+{
+    color: rgb(6, 158, 158);
+    font-size: 30px;
+    padding: 15px;
+}
+.front
+{
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    /* border: 5px solid blue; */
+}
+.front-cal
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.front-cal i,p,button
+{
+    color: rgb(6, 158, 158);
+}
+button
+{
+    color: white;
+    background-color: rgb(6, 158, 158);
+    padding: 3px;
+    border: 1px rgb(6, 158, 158);
+}
+.edu
+{
+    display: flex;
+    align-items: center;
+}
+.edu i
+{
+    font-size: 30px;
+    color: rgb(6, 158, 158);
+    padding: 15px;
+}
+.m-right-upper-c4
+{
+    display: flex;
+    flex-flow: column nowrap;
+    /* border: 5px solid blueviolet; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: 150px;
+}
+.second-part
+{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    color: rgb(6, 158, 158);
+}
+.right-text2
+{
+    padding: 9px;
+}
+.logo
+{
+    display: flex;
+    gap: 10px;
+}
+.school
+{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 15px;
+    gap: 10px;
+}
+.school2
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    padding: 15px;
+}
+.sc
+{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
